@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  
+}
+body{
+  background-color: #DAE5D0;
 }
 
 .App-logo {
@@ -35,4 +39,89 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.App {
+  text-align: center;
+  font-family: arial;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Menu {
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  background-color: #A0BCC2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Menu input, button {
+  width: 300px;
+  height: 50px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #DAE5D0;
+}
+button::selection{
+  background-color: green;
+}
+
+.Quiz {
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  background-color: #A0BCC2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Menu, .Quiz, .EndScreen h1 {
+  color: white;
+}
+
+.EndScreen {
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  background-color: #A0BCC2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#nextQuestion {
+  width: 200px;
+}
+
+h3 {
+  color: #ffffff;
+
+}
+#nextQuestion{
+  background-color: rgb(195, 252, 110) ;
+}
+#nextQuestion:hover{
+  background-color: rgb(101, 168, 0);
+  color: white;
+}
+
+h1{
+  color: black;
+  font-size: bold;
+
 }
